@@ -73,4 +73,5 @@ bmi_data = """[{"Gender": "Male", "HeightCm": 171, "WeightKg": 96 },
 				{"Gender": "Female", "HeightCm": 167, "WeightKg": 82}]
 			"""
 
-getOverallBMIData(bmi_data)
+result = getOverallBMIData(bmi_data)
+print(result)
